@@ -1,0 +1,21 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+	"test": "npm run test:api-blueprint",
+	"test:api-blueprint": "dredd --config=dredd.yml"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ionic/app-scripts": "^3.1.6",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "ws": "3.3.2"
+  }
+}

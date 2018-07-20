@@ -23,7 +23,6 @@ app.get('/namaste', function(req, res, next){
 	res.send('Namaste India from Node JS Server');
 });
 
-
 app.post('/test', function(req, res, next){
 	var resJSON = {};
 	resJSON.message = req.body.name + " : " + req.body.serial;

@@ -28,3 +28,4 @@ app.post('/test', function(req, res, next){
 	resJSON.message = req.body.name + " : " + req.body.serial;
 	res.json(resJSON);
 });
+
